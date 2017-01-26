@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		self.example2()
 	}
 
-	// Подсказывает intProp у myClassProp если myParam.myClassProps массив протоколов
+	// Не подсказывает intProp у myClassProp если myParam.myClassProps массив протоколов
 	func example1(myParam: MyClass1)
 	{
 		if let myClassProp = myParam.myClassProps?.first {
