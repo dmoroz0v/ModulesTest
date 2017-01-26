@@ -1,0 +1,40 @@
+{
+  "name": "SwiftModule",
+  "version": "0.0.1",
+  "summary": "SwiftModule.",
+  "description": "Descr",
+  "homepage": "http://EXAMPLE/SwiftModule",
+  "license": "MIT",
+  "authors": {
+    "denis.moroz.morozov": "denis.moroz.morozov@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "http://SwiftModule.ru/SwiftModule.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Headers/*.h",
+    "Src",
+    "Src/**/*.swift"
+  ],
+  "public_header_files": "Headers/*.h",
+  "prefix_header_contents": [
+    "#import <UIKit/UIKit.h>",
+    "#import <Foundation/Foundation.h>"
+  ],
+  "requires_arc": true,
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  },
+  "dependencies": {
+    "ObjCModule": [
+
+    ]
+  }
+}

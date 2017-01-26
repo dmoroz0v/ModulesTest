@@ -1,0 +1,22 @@
+PODS:
+  - ObjCModule (0.0.1)
+  - SwiftModule (0.0.1):
+    - ObjCModule
+
+DEPENDENCIES:
+  - ObjCModule (from `ObjCModule`)
+  - SwiftModule (from `SwiftModule`)
+
+EXTERNAL SOURCES:
+  ObjCModule:
+    :path: ObjCModule
+  SwiftModule:
+    :path: SwiftModule
+
+SPEC CHECKSUMS:
+  ObjCModule: beb8ee9b2d60809cb274e3160644b7f7b0a72e65
+  SwiftModule: 20f65bb66eea6423e60d54d5539529a605dccf3a
+
+PODFILE CHECKSUM: 275783348041b2aa9671039386e13bb3d0340ed7
+
+COCOAPODS: 1.1.1
